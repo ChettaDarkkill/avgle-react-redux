@@ -15,4 +15,4 @@ and type this command for run project
 
 ### `npm start`
 
-you can run this project by URL : http://localhost:3000/ on you browser
+you can run this project by URL : http://localhost:3000/ on your browser
