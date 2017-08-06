@@ -4,6 +4,7 @@ This project template was built with ### `React Redux` for learning only
 
 ## how to install
 first : git clone https://github.com/ChettaDarkkill/avgle-react-redux.git
+
 then : cd avgle-react-redux
 
 after that type this command for download library
