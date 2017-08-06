@@ -8,7 +8,7 @@ type this command for download library
 
 ### `npm install`
 
-and type this command for for run project
+and type this command for run project
 
 ### `npm start`
 
