@@ -1,9 +1,9 @@
-import images from './images'
+import video from './video'
 export default function combineReducer(currentState, action) {
 
     var nextState = {...currentState};
 
     return {
-        images: images(nextState.images, action)
+        video: video(nextState.video, action)
     };
 }

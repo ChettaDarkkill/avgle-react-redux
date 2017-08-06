@@ -1,10 +1,10 @@
 import $ from 'jquery'
-export const getRandomImages = (dispatch, state) => {
+export const getRandomVideo = (dispatch, state) => {
     dispatch({type:'IMAGE_LOADING'});
      try {
         var page = Math.floor(Math.random() * 20) + 1;
-        const imgurApi = 'https://api.avgle.com/v1/videos/${page}';
-            $.getJSON(imgurApi).done(data => {
+        const avgleApi = 'https://api.avgle.com/v1/videos/${page}';
+            $.getJSON(avgleApi).done(data => {
                 dispatch({ type:'IMAGES',data:data.response.videos })
             });
     } catch(error) {

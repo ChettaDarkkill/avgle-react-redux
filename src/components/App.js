@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import VideoList from './VideoList'
 
-export default class Example extends Component {
+export default class App extends Component {
   
   constructor(props) {
       super(props);
