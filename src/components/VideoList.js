@@ -1,4 +1,3 @@
-
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
 import { getRandomVideo } from '../redux/actions/index'
@@ -13,7 +12,7 @@ class VideoList extends Component {
     return (
        <div>
         <button className = "btn" onClick = {onRandomImages} >Get Video List</button>
-        <span> Status :</span> 
+        <span> Status :</span>
         <span style= {{color :'blue'}}>
           {' '+loading}
         </span>
